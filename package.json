@@ -1,0 +1,26 @@
+{
+  "name": "polyfill",
+  "version": "1.0.0",
+  "description": "Babel + core-js demo",
+  "main": "code.js",
+  "scripts": {
+    "babel": "babel src -d 'babel'",
+    "babel-core-js": "cross-env NODE_ENV='core-js' babel src -d 'babel-core-js'"
+  },
+  "keywords": [
+    "babel",
+    "core-js",
+    "demo"
+  ],
+  "author": "mat3e",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "cross-env": "^6.0.3"
+  },
+  "dependencies": {
+    "core-js": "^3.3.4"
+  }
+}
