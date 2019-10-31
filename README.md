@@ -19,6 +19,9 @@
      * original.js
    * Executes webpack 2 times - with the original file (default configuration) and with the Babel + core-js version (`webpack-babel-core-js.js` webpack configuration)
 
+## Links
+[original script](https://mat3e.github.io/polyfill/original.html)
+[Babel + core-js script](https://mat3e.github.io/polyfill/polyfill.html)
 
 ## Why not using Babel inside Webpack?
 The idea is to show Babel and core-js. It's simpler with Babel CLI. 
