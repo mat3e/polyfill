@@ -1,7 +1,7 @@
 module.exports = (api) => ({
     presets: [[
         '@babel/preset-env',
-        configFor(api.env())
+        configFor(api.env()) // NODE_ENV
     ]]
 });
 
