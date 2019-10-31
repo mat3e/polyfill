@@ -21,7 +21,7 @@
 
 ## Links
 * [Original script](https://mat3e.github.io/polyfill/original.html)
-* [Babel + core-js script](https://mat3e.github.io/polyfill/polyfill.html)
+* [Babel + core-js](https://mat3e.github.io/polyfill/polyfill.html)
 
 ## Why not using Babel inside Webpack?
 The idea is to show Babel and core-js. It's simpler with Babel CLI. 
