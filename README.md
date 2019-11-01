@@ -19,7 +19,7 @@
      * original.js
    * Executes webpack 2 times - with the original file (default configuration) and with the Babel + core-js version (`webpack-babel-core-js.js` webpack configuration)
 
-## Links
+## Example in action
 * [Original script](https://mat3e.github.io/polyfill/original.html)
 * [Babel + core-js](https://mat3e.github.io/polyfill/polyfill.html)
 
